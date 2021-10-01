@@ -132,14 +132,14 @@
             // novaMoedaToolStripMenuItem
             // 
             this.novaMoedaToolStripMenuItem.Name = "novaMoedaToolStripMenuItem";
-            this.novaMoedaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novaMoedaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.novaMoedaToolStripMenuItem.Text = "Editar moedas";
             this.novaMoedaToolStripMenuItem.Click += new System.EventHandler(this.novaMoedaToolStripMenuItem_Click);
             // 
             // visualizarMoedasToolStripMenuItem
             // 
             this.visualizarMoedasToolStripMenuItem.Name = "visualizarMoedasToolStripMenuItem";
-            this.visualizarMoedasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.visualizarMoedasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.visualizarMoedasToolStripMenuItem.Text = "Visualizar moedas";
             this.visualizarMoedasToolStripMenuItem.Click += new System.EventHandler(this.visualizarMoedasToolStripMenuItem_Click);
             // 
@@ -319,6 +319,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "inicial";

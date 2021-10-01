@@ -87,6 +87,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 450);
             this.Controls.Add(this.dataGridViewMoedas);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "visualizarMoedasForm";
             this.ShowIcon = false;
