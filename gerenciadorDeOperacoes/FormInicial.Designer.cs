@@ -157,6 +157,7 @@
             this.listagemDeOperaçõesToolStripMenuItem.Name = "listagemDeOperaçõesToolStripMenuItem";
             this.listagemDeOperaçõesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.listagemDeOperaçõesToolStripMenuItem.Text = "Listagem de operações";
+            this.listagemDeOperaçõesToolStripMenuItem.Click += new System.EventHandler(this.listagemDeOperaçõesToolStripMenuItem_Click);
             // 
             // valorMoedaOrigem
             // 

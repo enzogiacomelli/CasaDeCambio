@@ -98,11 +98,11 @@
     <Compile Include="FormInicial.Designer.cs">
       <DependentUpon>FormInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="listagemOperacoes.cs">
+    <Compile Include="listagemOperacoesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="listagemOperacoes.Designer.cs">
-      <DependentUpon>listagemOperacoes.cs</DependentUpon>
+    <Compile Include="listagemOperacoesForm.Designer.cs">
+      <DependentUpon>listagemOperacoesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Moeda.cs" />
     <Compile Include="editarMoedasForm.cs">
@@ -126,8 +126,8 @@
     <EmbeddedResource Include="FormInicial.resx">
       <DependentUpon>FormInicial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="listagemOperacoes.resx">
-      <DependentUpon>listagemOperacoes.cs</DependentUpon>
+    <EmbeddedResource Include="listagemOperacoesForm.resx">
+      <DependentUpon>listagemOperacoesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

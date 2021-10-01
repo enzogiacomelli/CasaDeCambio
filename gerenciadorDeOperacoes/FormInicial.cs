@@ -97,5 +97,11 @@ namespace gerenciadorDeOperacoes
 
             btnSaveOperacao.Enabled = false;
         }
+
+        private void listagemDeOperaçõesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListagemOperacoes form = new ListagemOperacoes();
+            form.Show();
+        }
     }
 }
